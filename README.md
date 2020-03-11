@@ -1,6 +1,13 @@
 # lambdata-mountain
 
-Using the package from PiPy Example instructions:
+Install from test PyPI:
+
+```sh
+pip install -i https://test.pypi.org/simple/ Mountain-Scott-ds12
+```
+
+
+Using the package from PyPI Example instructions:
 ```py
 from lambdata_mountain.my_mod import SplitAddColumn
 
@@ -15,7 +22,7 @@ alphabet_list = ['a','b','c','d','e','f','g']
 
 my_splitter.list_to_new_column(alphabet_list, col_name="Alphabet")
 
-````
+```
 <hr>
 
 Install dependencies:
